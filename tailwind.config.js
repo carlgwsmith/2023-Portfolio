@@ -11,6 +11,7 @@ export default {
       'sunglow': '#FFC857',
       'jet': '#323031',
       'jet-light': '#E1E1E1',
+      'background-light':'#FFFCF4',
     },
     extend: {},
   },
