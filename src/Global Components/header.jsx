@@ -10,10 +10,10 @@ const handleNav = ()=>{
     setNavbarOpen(!navbarOpen)
 }
 
-const linkStyle= 'm-4 bg-white bg-clip-text text-jet hover:text-transparent ease-in-out hover: bg-gradient-to-r from-[#FF3C35] to-[#FBB21B] hover:border-jet'
+const linkStyle= 'm-4 bg-white bg-clip-text text-jet ease-in-out bg-jet hover:text-transparent hover: bg-gradient-to-r from-[#FF3C35] to-[#FBB21B]'
 
     return(
-        <div className="flex justify-between items-center max-w-[1240px] bg-white border-b-2 py-4 px-10 border-jet h-12 text-jet">
+        <div className="flex justify-between items-center w-full bg-white border-b-2 py-4 px-10 border-jet h-12 text-jet">
                 <div className="w-full text-xl font-bold tracking-tighter ">CGWS</div>
                 <ul className="hidden md:flex text-sm ease-in-out duration-500">
                     <li className={linkStyle}>Home</li>

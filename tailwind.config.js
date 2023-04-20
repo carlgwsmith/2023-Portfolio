@@ -13,8 +13,24 @@ export default {
       'jet-light': '#E1E1E1',
       'background-light':'#FFFCF4',
     },
-    extend: {},
+    extend: {
+      animation: {
+        bganimate:'bganimate 5s ease infinite',
+    },
+    keyframes: {
+        bganimate: {
+          '0%':{
+            backgroundSize: '200%',
+            backgroundPosition:'0, 50%'},
+          '50%':{
+            backgroundSize: '200%',
+            backgroundPosition:'100%, 50%'},
+          '100%':{
+            backgroundSize: '200%',
+            backgroundPosition:'0%, 50%'}
+        },
+    },
   },
-  plugins: [require('flowbite/plugin')],
+  plugins: [],
 }
-
+}
