@@ -22,13 +22,13 @@ const linkStyle= 'm-4 bg-white bg-clip-text text-jet ease-in-out bg-jet hover:te
                     <li className={linkStyle}>Resume</li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
-                    <HiMenu size={20} navBarOpen={true}/>
+                    <HiMenu size={20} navbarOpen={true}/>
                 </div>
                 <div className={navbarOpen ? 'fixed left-0 top-0 w-[100%] border-right border-r-gray-900 h-full bg-gray-100 ease-in-out duration-500' : 'fixed left-[-100%] ease-in-out duration-500'}>
                     <div className="grid grid-cols-6">
                     <div className="col-span-3 text-xl font-bold tracking-tighter m-4 w-[75%] inline-block">CGWS</div>
                     <div className="col-span-3 p-4 inline-block">
-                <MdClose size={20} navBarOpen={false} onClick={handleNav} className="float-right"/>
+                <MdClose size={20} navbarOpen={false} onClick={handleNav} className="float-right"/>
                 </div>
                     </div>
                     <ul className="uppercase">
