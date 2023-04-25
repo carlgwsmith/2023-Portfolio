@@ -7,7 +7,7 @@ const tickerItem={
     color:'white'
 }
 return(
-    <div className="bg-jet w-full -rotate-1 pb-3">
+    <div className="bg-jet w-full -rotate-1 mb-3">
     <Marquee className="p-8" pauseOnHover='true' speed='30'>
         <div style={tickerItem}>Product Design</div>
         <div><RxDotFilled size={14} className="m-1" color={'white'}/></div>
