@@ -16,6 +16,7 @@ export default {
     extend: {
       animation: {
         bganimate:'bganimate 5s ease infinite',
+        ticker:'ticker 25s ease-in-out infinite'
     },
     keyframes: {
         bganimate: {
@@ -29,6 +30,15 @@ export default {
             backgroundSize: '200%',
             backgroundPosition:'0%, 50%'}
         },
+        ticker:{
+          '0%':{
+            transform: `translate3d(0,0,0)`,
+            visibility:'visible'
+          },
+          '100%':{
+            transform:`translate3d(-100%,0,0)` 
+          }
+        }
     },
   },
   plugins: [],

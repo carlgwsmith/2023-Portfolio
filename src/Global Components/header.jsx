@@ -10,7 +10,7 @@ const handleNav = ()=>{
     setNavbarOpen(!navbarOpen)
 }
 
-const linkStyle= 'm-4 bg-white bg-clip-text text-jet ease-in-out bg-jet hover:text-transparent hover: bg-gradient-to-r from-[#FF3C35] to-[#FBB21B]'
+const linkStyle= 'm-4 hover:underline'
 
     return(
         <div className="flex justify-between items-center w-full bg-white border-b-2 py-4 px-10 border-jet h-12 text-jet">
