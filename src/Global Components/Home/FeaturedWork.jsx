@@ -1,4 +1,6 @@
-export default function FeaturedWork(){
+import WorkCard from "./WorkCard"
+
+export default function FeaturedWork(props){
 
     const studyBtn = {
         padding:'10px',
@@ -11,21 +13,26 @@ export default function FeaturedWork(){
         <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
             </div>
             <div className="col-span-3 m-auto">
-                <div className="grid grid-cols-3 gap-4">
-                    <div className="w-[300px] bg-[#F0F7F8] rounded-lg mt-16 border-solid border-jet-light border-2">
-                        <div className="grid grid-rows-3">
-                            <div className="h-[60%]">feature image</div>
-                            <div className="p-5">
-                                <div className="text-lg font-semibold">AgentXplore</div>
-                                <div className="text-sm">A design case study for an insurance agent search tool that allows users to find professionals that match their specific needs.</div>
-                            </div>
-                            <div className="text-center p-5">
-                               <div className="button border-solid border-jet-light border-2 p-4 text-sm font-semibold rounded-lg bg-[#fff]">View AgentXplore Study</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-[300px] bg-jet-light  rounded-lg">proj 2</div>
-                    <div className="w-[300px] bg-jet-light rounded-lg mt-16">proj 3</div>
+                <div className="grid grid-cols-3 gap-4 items-center mt-10">
+                    <WorkCard 
+                        className="mt-16"
+                        featuredImg="/AgentXploreFeatureImage.png"
+                        projName="Agentxplore"
+                        projDesc="A design case study for an insurance agent search tool that allows users to find professionals that match their specific needs."
+                        buttonCTA="View AgentXplore Study"
+                    />
+                    <WorkCard
+                        featuredImg="/FinaryFeatureImage.png"
+                        projName="Finary"
+                        projDesc="A design case study for an financial advisor CRM to track client’s progress and analyze their needs and goals."
+                        buttonCTA="View Finary Study"
+                    />
+                    <WorkCard className="mt-16"
+                        featuredImg="/iptiqEappFeatureImage.png"
+                        projName="IptiQ E-App"
+                        projDesc="A case study for an insurance agent electronic application tool that allows users to input and apply for insurance products."
+                        buttonCTA="View iptiQ Study"
+                    />
                 </div>
             </div>
         </div>
