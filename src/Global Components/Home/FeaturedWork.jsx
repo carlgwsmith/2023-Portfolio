@@ -13,7 +13,7 @@ export default function FeaturedWork(props){
         <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
             </div>
             <div className="col-span-3 m-auto">
-                <div className="grid grid-cols-3 gap-4 items-center mt-10">
+                <div className="grid grid-cols-auto md:grid-cols-3 gap-4 items-center mt-10">
                     <WorkCard 
                         className="mt-16"
                         featuredImg="/AgentXploreFeatureImage.png"

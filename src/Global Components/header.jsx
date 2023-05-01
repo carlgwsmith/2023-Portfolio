@@ -10,6 +10,8 @@ const handleNav = ()=>{
     setNavbarOpen(!navbarOpen)
 }
 
+
+
 const linkStyle= 'm-4 hover:underline'
 
     return(
