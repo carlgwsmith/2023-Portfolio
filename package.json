@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
+    "@react-three/fiber": "8.9",
     "autoprefixer": "^10.4.14",
     "flowbite": "^1.6.5",
     "flowbite-react": "^0.4.3",
@@ -21,7 +22,8 @@
     "react-fast-marquee": "^1.5.2",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.11.0",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "three": "^0.148.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
