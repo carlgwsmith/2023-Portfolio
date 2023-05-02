@@ -17,7 +17,7 @@ const linkStyle= 'm-4 hover:underline'
 
     return(
         <div className="flex justify-between items-center w-full bg-white border-b-2 py-4 px-10 border-jet h-12 text-jet">
-                <div className="w-full text-xl font-bold tracking-tighter ">CGWS</div>
+                <div className="w-full text-xl font-bold tracking-tighter text-jet">CGWS</div>
                 <ul className="hidden md:flex text-sm ease-in-out duration-500">
                     <li className={linkStyle}> 
                         <Link to={`/`}>

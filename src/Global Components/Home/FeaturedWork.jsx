@@ -1,4 +1,5 @@
 import WorkCard from "./WorkCard"
+import { Link } from "react-router-dom"
 
 export default function FeaturedWork(props){
 
@@ -20,6 +21,7 @@ export default function FeaturedWork(props){
                         projName="Agentxplore"
                         projDesc="A design case study for an insurance agent search tool that allows users to find professionals that match their specific needs."
                         buttonCTA="View AgentXplore Study"
+                        buttonLink={`/portfolio/agentxplore`}
                     />
                     </div>
                     <div>
@@ -28,6 +30,7 @@ export default function FeaturedWork(props){
                         projName="Finary"
                         projDesc="A design case study for an financial advisor CRM to track client’s progress and analyze their needs and goals."
                         buttonCTA="View Finary Study"
+                        buttonLink={`/portfolio/finary`}
                     />
                     </div>
                     <div className="mt-16">
@@ -36,6 +39,7 @@ export default function FeaturedWork(props){
                         projName="IptiQ E-App"
                         projDesc="A case study for an insurance agent electronic application tool that allows users to input and apply for insurance products."
                         buttonCTA="View iptiQ Study"
+                        buttonLink={`/portfolio/iptiq`}
                     />
                     </div>
                 </div>
