@@ -14,25 +14,30 @@ export default function FeaturedWork(props){
             </div>
             <div className="col-span-3 m-auto">
                 <div className="grid grid-cols-auto md:grid-cols-3 gap-4 items-center mt-10">
+                    <div className="mt-16">
                     <WorkCard 
-                        className="mt-16"
                         featuredImg="/AgentXploreFeatureImage.png"
                         projName="Agentxplore"
                         projDesc="A design case study for an insurance agent search tool that allows users to find professionals that match their specific needs."
                         buttonCTA="View AgentXplore Study"
                     />
+                    </div>
+                    <div>
                     <WorkCard
                         featuredImg="/FinaryFeatureImage.png"
                         projName="Finary"
                         projDesc="A design case study for an financial advisor CRM to track client’s progress and analyze their needs and goals."
                         buttonCTA="View Finary Study"
                     />
-                    <WorkCard className="mt-16"
+                    </div>
+                    <div className="mt-16">
+                    <WorkCard
                         featuredImg="/iptiqEappFeatureImage.png"
                         projName="IptiQ E-App"
                         projDesc="A case study for an insurance agent electronic application tool that allows users to input and apply for insurance products."
                         buttonCTA="View iptiQ Study"
                     />
+                    </div>
                 </div>
             </div>
         </div>

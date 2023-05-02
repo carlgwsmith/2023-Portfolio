@@ -1,6 +1,7 @@
 import { useState } from "react"
 import {HiMenu} from 'react-icons/hi'
 import {MdClose} from 'react-icons/md'
+import { Link } from "react-router-dom";
 
 function Header(){
 
@@ -18,10 +19,26 @@ const linkStyle= 'm-4 hover:underline'
         <div className="flex justify-between items-center w-full bg-white border-b-2 py-4 px-10 border-jet h-12 text-jet">
                 <div className="w-full text-xl font-bold tracking-tighter ">CGWS</div>
                 <ul className="hidden md:flex text-sm ease-in-out duration-500">
-                    <li className={linkStyle}>Home</li>
-                    <li className={linkStyle}>Portfolio</li>
-                    <li className={linkStyle}>Contact</li>
-                    <li className={linkStyle}>Resume</li>
+                    <li className={linkStyle}> 
+                        <Link to={`/`}>
+                            Home
+                        </Link>
+                    </li>
+                    <li className={linkStyle}> 
+                        <Link to={`portfolio`}>
+                            Portfolio
+                        </Link>
+                    </li>
+                    <li className={linkStyle}> 
+                        <Link to={`contact`}>
+                            Contact
+                        </Link>
+                    </li>
+                    <li className={linkStyle}> 
+                        <Link to={`resume`}>
+                            Resume
+                        </Link>
+                    </li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
                     <HiMenu size={20} navbarOpen={true}/>
