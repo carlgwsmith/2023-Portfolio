@@ -1,5 +1,6 @@
 export default function Contact(){
-    return(<div>
-        Contact
+    return(
+    <div className="h-[500px]">
+        Contact coming soon
     </div>)
 }

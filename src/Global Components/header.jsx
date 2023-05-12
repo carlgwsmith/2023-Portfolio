@@ -29,14 +29,14 @@ const linkStyle= 'm-4 hover:underline'
                             Portfolio
                         </Link>
                     </li>
-                    <li className={linkStyle}> 
-                        <Link to={`contact`}>
-                            Contact
+                    <li className={linkStyle}>
+                    <Link to={`resume`}>
+                            Resume
                         </Link>
                     </li>
                     <li className={linkStyle}> 
-                        <Link to={`resume`}>
-                            Resume
+                    <Link to={`contact`}>
+                            Contact
                         </Link>
                     </li>
                 </ul>
