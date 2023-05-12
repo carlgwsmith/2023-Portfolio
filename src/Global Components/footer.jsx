@@ -3,9 +3,9 @@ import {RxDotFilled} from 'react-icons/rx'
 
 export default function Footer(){
     return(
-        <div className="mt-10 pb-4 w-full bg-background-light text-jet">
+        <div className="left-0 bottom-0 mt-10 pb-4 w-full bg-background-light text-jet">
             <div className="p-10 bg-background-light grid grid-cols-6">
-                <div className='m-auto col-start-2 col-span-4 pt-5'>
+                <div className='m-auto col-start-2 col-span-4 pt-5 pb-5'>
                     <h2 className="text-center font-bold text-3xl text-jet">Check me out elsewhere</h2>
                     <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
                 </div>
