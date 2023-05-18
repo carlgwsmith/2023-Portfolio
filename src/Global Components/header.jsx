@@ -1,7 +1,7 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import {HiMenu} from 'react-icons/hi'
 import {MdClose} from 'react-icons/md'
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Header(){
 
@@ -12,6 +12,10 @@ const handleNav = ()=>{
 }
 
 
+const location = useLocation()
+useEffect(() => {
+    setNavbarOpen(false)
+}, [location]);
 
 const linkStyle= 'm-4 hover:underline'
 
@@ -20,24 +24,24 @@ const linkStyle= 'm-4 hover:underline'
                 <div className="w-full text-xl font-bold tracking-tighter text-jet">CGWS</div>
                 <ul className="hidden md:flex text-sm ease-in-out duration-500">
                     <li className={linkStyle}> 
-                        <Link to={`/`}>
+                        <NavLink to={`/`}>
                             Home
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className={linkStyle}> 
-                        <Link to={`portfolio`}>
+                        <NavLink to={`portfolio`}>
                             Portfolio
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className={linkStyle}>
-                    <Link to={`resume`}>
+                    <NavLink to={`resume`}>
                             Resume
-                        </Link>
+                        </NavLink>
                     </li>
                     <li className={linkStyle}> 
-                    <Link to={`contact`}>
+                    <NavLink to={`contact`}>
                             Contact
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
@@ -51,10 +55,18 @@ const linkStyle= 'm-4 hover:underline'
                 </div>
                     </div>
                     <ul className="uppercase">
-                        <li className="p-4">Portfolio</li>
-                        <li className="p-4">Home</li>
-                        <li className="p-4">Contact</li>
-                        <li className="p-4">Resume</li>
+                        <li className="p-4">
+                        <NavLink to={`home`}>Home</NavLink>
+                        </li>
+                        <li className="p-4">
+                            <NavLink to={`portfolio`}>Portfolio</NavLink>
+                        </li>
+                        <li className="p-4">
+                        <NavLink to={`resume`}>Resume</NavLink>
+                        </li>
+                        <li className="p-4">
+                        <NavLink to={`contact`}>Contact</NavLink>
+                        </li>
                 </ul>
                 </div>
         </div>
