@@ -9,7 +9,7 @@ export default function Contact(){
     <div className="h-[500px]">
         <div className="m-auto grid mt-16 mb-28 px-[100px]">
             <div>
-                <h1 className="text-3xl font-extrabold mb-10 text-jet">
+                <h1 className="text-4xl font-bold mb-10 text-jet">
                 Would love to hear from you, Let’s talk. 👋
                 </h1>
             <form action="https://api.web3forms.com/submit" method="POST">
