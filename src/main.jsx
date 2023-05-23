@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Home from './Global Components/Home';
+import Home from './Home/Home';
 import Finary from './Case Studies/Finary';
 import IptiQ from './Case Studies/IptiQ';
 import AgentExplore from './Case Studies/AgentXplore';

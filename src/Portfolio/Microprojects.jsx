@@ -1,7 +1,7 @@
-import WorkCard from "./WorkCard"
+import WorkCard from "../Home/WorkCard"
 import { Link } from "react-router-dom"
 
-export default function FeaturedWork(props){
+export default function Microprojects(props){
 
     const studyBtn = {
         padding:'10px',
@@ -10,12 +10,12 @@ export default function FeaturedWork(props){
     return(
         <div className="m-auto grid grid-cols-3 mt-16 mb-28">
             <div className="m-auto col-start-2">
-            <h2 className="text-center font-bold text-3xl text-jet">Featured Work</h2>
+            <h2 className="text-center font-bold text-3xl text-jet">{props.title}</h2>
         <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
             </div>
             <div className="col-span-3 m-auto">
                 <div className="grid grid-cols-auto sm:grid-cols-1 md:grid-cols-3 gap-6 items-center mt-10">
-                    <div className="mt-16">
+                    <div className={props.cardMargin}>
                     <WorkCard 
                         featuredImg="/AgentXploreFeatureImage.png"
                         projName="Agentxplore"
@@ -33,7 +33,7 @@ export default function FeaturedWork(props){
                         buttonLink={`/portfolio/finary`}
                     />
                     </div>
-                    <div className="mt-16">
+                    <div className={props.cardMargin}>
                     <WorkCard
                         featuredImg="/iptiqEappFeatureImage.png"
                         projName="IptiQ E-App"
