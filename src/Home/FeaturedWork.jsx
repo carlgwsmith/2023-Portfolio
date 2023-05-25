@@ -16,7 +16,7 @@ export default function FeaturedWork(props){
             <div className="col-span-3 m-auto">
                 <div className="grid grid-cols-auto sm:grid-cols-1 md:grid-cols-3 gap-6 items-center mt-10">
                     <div className={props.cardMargin}>
-                    <WorkCard 
+                    <WorkCard
                         featuredImg="/AgentXploreFeatureImage.png"
                         projName="Agentxplore"
                         projDesc="A design case study for an insurance agent search tool that allows users to find professionals that match their specific needs."
