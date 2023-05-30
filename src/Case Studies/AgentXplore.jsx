@@ -3,6 +3,7 @@ import HeroImg from '../assets/agents-hero.png'
 import CaseStudyDescBar from './CaseStudyDescBar'
 import Objectives from './Objectives'
 import Process from './Process'
+import Research from './Research'
 export default function AgentExplore (){
     return(
         <div>
@@ -10,6 +11,7 @@ export default function AgentExplore (){
             <CaseStudyDescBar year="2023" role="Product Designer, Developer" duration="4 mos"/>
             <Objectives/>
             <Process/>
+            <Research/>
         </div>
     )
 }
