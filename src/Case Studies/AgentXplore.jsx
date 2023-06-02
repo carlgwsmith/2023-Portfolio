@@ -6,6 +6,8 @@ import Objectives from './Objectives'
 import Process from './Process'
 import Research from './Research'
 import persona1 from '../assets/agents-user1.png'
+import persona2 from '../assets/agents-user2.png'
+import Defining from '../Global Components/Defining'
 export default function AgentExplore (){
 
     const motivations1 = 
@@ -134,7 +136,7 @@ export default function AgentExplore (){
             benefits={benefits1}
             />
             <Persona
-            pic={persona1}
+            pic={persona2}
             name="Jane D."
             title="Stay at Home Mom"
             city="Kansas City, KS"
@@ -146,6 +148,7 @@ export default function AgentExplore (){
             solutions={solutions2}
             benefits={benefits1}
             />
+            <Defining/>
         </div>
     )
 
