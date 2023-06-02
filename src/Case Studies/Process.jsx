@@ -5,7 +5,7 @@ export default function Process(){
     const iconName = 'font-medium mt-2'
 
     return(
-        <div className="px-10 py-6 grid grid-cols-6 text-jet">
+        <div className="px-40 py-6 grid grid-cols-6 text-jet">
         <div className='m-auto col-start-2 col-span-4 pt-5 pb-5'>
             <h2 className="text-center font-bold text-3xl text-jet mb-2">Process</h2>
             <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
