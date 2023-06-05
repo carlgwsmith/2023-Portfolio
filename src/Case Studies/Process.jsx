@@ -14,31 +14,31 @@ export default function Process(){
             <div className="grid grid-cols-auto md:grid-cols-5 mt-10 text-center">
                 <div>
                     <div className={roundIcon}>
-                    <BiSearchAlt size="40px" />
+                    <BiSearchAlt size="40px" color="#323031" />
                     </div>
                     <h3 className={iconName}>Research</h3>
                 </div>
                 <div>
                     <div className={roundIcon}>
-                    <BiBulb size="40px"/>
+                    <BiBulb size="40px" color="#323031"/>
                     </div>
                     <h3 className={iconName}>Define</h3>
                 </div>
                 <div>
                     <div className={roundIcon}>
-                    <BiVector size="40px"/>
+                    <BiVector size="40px" color="#323031"/>
                     </div>
                     <h3 className={iconName}>Design</h3>
                 </div>
                 <div>
                     <div className={roundIcon}>
-                    <BiRepeat size="40px"/>
+                    <BiRepeat size="40px" color="#323031"/>
                     </div>
                     <h3 className={iconName}>Ideate</h3>
                 </div>
                 <div>
                     <div className={roundIcon}>
-                    <BiCodeAlt size="40px"/>
+                    <BiCodeAlt size="40px" color="#323031"/>
                     </div>
                     <h3 className={iconName}>Develop</h3>
                 </div>
