@@ -8,6 +8,7 @@ import Research from './Research'
 import persona1 from '../assets/agents-user1.png'
 import persona2 from '../assets/agents-user2.png'
 import Defining from '../Global Components/Defining'
+import DesignSystem from '../AgentXAssets/Designsystem'
 export default function AgentExplore (){
 
     const motivations1 = 
@@ -149,6 +150,7 @@ export default function AgentExplore (){
             benefits={benefits1}
             />
             <Defining/>
+            <DesignSystem/>
         </div>
     )
 
