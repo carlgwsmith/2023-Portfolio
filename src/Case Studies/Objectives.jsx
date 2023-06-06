@@ -2,8 +2,8 @@ import {BiChevronRight} from 'react-icons/bi'
 
 export default function Objectives(){
     return(
-        <div className="grid grid-cols-2 text-jet bg-background-light py-10 px-10 gap-20">
-            <div className="mt-4">
+        <div className="grid grid-cols-6 text-jet bg-background-light py-10 px-10 gap-10">
+            <div className="mt-4 md:col-span-3 sm:col-span-6 col-span-6">
                 <h2 className="text-center text-xl font-semibold">Objectives & Goals</h2>
                 <ol className="list-decimal mt-4 ml-10 text-sm">
                     <li className='mb-4'>Provide an easy-to-use platform for users to search and compare life insurance products offered by different agents.</li>
@@ -12,7 +12,7 @@ export default function Objectives(){
                     <li className='mb-4'>Provide a secure platform for users to submit their personal information and receive quotes from different insurance companies.</li>
                 </ol>
             </div>
-            <div className="mt-4">
+            <div className="mt-4 md:col-span-3 sm:col-span-6 col-span-6">
             <h2 className="text-center text-xl font-semibold">Business Challenges</h2>
             <ul className='mt-4 text-md font-medium ml-20'>
                 <li className='mb-4'><BiChevronRight className='inline -mt-1' size="22px"/> Competition</li>
