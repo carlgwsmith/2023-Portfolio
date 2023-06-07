@@ -13,10 +13,10 @@ export default function Experience(){
     return(
         <>
          <orbitControls args={[camera, gl.domElement]}/>
-        <directionalLight position={[4, 2, 1]}  intensity={1.4}/>
+        <directionalLight position={[1, 2, 1]}  intensity={.8}/>
         <ambientLight intensity={0.5}/>
     
-        <primitive object={model.scene} scale={.50} rotation-y={4.5} rotation-z={0} rotation-x={0.6}/>
+        <primitive object={model.scene} position={[-1,-.4,-1]} scale={.4} rotation-y={4.46} rotation-z={0} rotation-x={0}/>
 
         </>
     )
