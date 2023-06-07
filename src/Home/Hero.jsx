@@ -1,5 +1,6 @@
-
-
+import Experience from "../3D/Environment"
+import { Canvas } from "@react-three/fiber"
+import * as THREE from 'three'
 function Hero(props) {
 
     return(
@@ -15,7 +16,7 @@ function Hero(props) {
                 </div>
             </div>
             <div className="xs: col-span-12 sm:col-span-6 text-center m-auto">
-                {props.image ? <img src={props.rightSide}/> : 'placeholder'}
+                {props.image ? <img src={props.rightSide}/> : <Canvas><Experience/></Canvas>}
             </div>
         </div>
         </>
