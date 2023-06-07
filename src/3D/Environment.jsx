@@ -23,11 +23,9 @@ export default function Experience(){
 
     })
 
-    extend({OrbitControls: OrbitControls})
 
     return(
         <>
-        <orbitControls args={[camera, gl.domElement]}/>
 
         <directionalLight position={[1, 2, 1]} color="red" intensity={1.4}/>
         <ambientLight intensity={0.5}/>
@@ -54,13 +52,6 @@ export default function Experience(){
         </mesh>
         </group>
 
-        <mesh 
-        scale={10}
-        position-y={-1} 
-        rotation-x={-Math.PI * 0.5}>
-            <planeGeometry/>
-            <meshStandardMaterial color="greenyellow"/>
-        </mesh>
         </>
     )
 }

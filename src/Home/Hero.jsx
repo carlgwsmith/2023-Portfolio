@@ -16,7 +16,7 @@ function Hero(props) {
                 </div>
             </div>
             <div className="xs: col-span-12 sm:col-span-6 text-center m-auto">
-                {props.image ? <img src={props.rightSide}/> : <Canvas><Experience/></Canvas>}
+                {props.image ? <img src={props.rightSide}/> : <Canvas style={{width: '400px', height: '400px'}}><Experience/></Canvas>}
             </div>
         </div>
         </>
