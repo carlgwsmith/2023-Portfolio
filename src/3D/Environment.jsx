@@ -8,11 +8,11 @@ export default function Experience(){
     const model = useLoader(GLTFLoader, './carlsoffice.gltf')
     const{camera, gl} = useThree()
 
-    extend({OrbitControls: OrbitControls})
+    // extend({OrbitControls: OrbitControls})
 
     return(
         <>
-         <orbitControls args={[camera, gl.domElement]}/>
+         {/* <orbitControls args={[camera, gl.domElement]}/> */}
         <directionalLight position={[1, 2, 1]}  intensity={.8}/>
         <ambientLight intensity={0.5}/>
     
