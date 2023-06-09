@@ -16,7 +16,7 @@ export default function Experience(){
         <directionalLight position={[1, 2, 1]}  intensity={.8}/>
         <ambientLight intensity={0.5}/>
     
-        <primitive object={model.scene} position={[-1,-.4,-1]} scale={.4} rotation-y={4.46} rotation-z={0} rotation-x={0}/>
+        <primitive object={model.scene} position={[-1,-.4,-1]} scale={.4} rotation-y={4.7} rotation-z={0} rotation-x={0}/>
 
         </>
     )
