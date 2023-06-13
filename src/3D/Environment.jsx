@@ -5,7 +5,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
 export default function Experience(){
 
-    const model = useLoader(GLTFLoader, './carlsoffice.gltf')
+    const model = useLoader(GLTFLoader, './carlsofficer.gltf')
     const{camera, gl} = useThree()
 
     // extend({OrbitControls: OrbitControls})
