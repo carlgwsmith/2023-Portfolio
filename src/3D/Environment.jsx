@@ -1,11 +1,17 @@
 import { useFrame,extend, useThree } from "@react-three/fiber"
 import { useLoader } from "@react-three/fiber"
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js"
+import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader.js"
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
 export default function Experience(){
 
-    const model = useLoader(GLTFLoader, './carlsofficer.gltf')
+    const model = useLoader(GLTFLoader, './carlsoffice1.gltf',
+    (loader)=>{
+        const dracoLoader = new DRACOLoader()
+        dracoLoader.setDecoderPath('./draco/')
+        loader.setDRACOLoader(dracoLoader)
+    })
     const{camera, gl} = useThree()
 
     // extend({OrbitControls: OrbitControls})
