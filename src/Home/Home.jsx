@@ -7,7 +7,7 @@ export default function Home(){
     return(
         <>
         <HeroHome title="Carl G.W. Smith" desc="I’m Carl, a senior product designer and creative developer.
-I design and implement thoughtful and easy to use experiences for companies with complex problems." rightSide={<Canvas style={{width: '800px', height: '600px', overflow: 'visible'}} camera={{
+I design and implement thoughtful and easy to use experiences for companies with complex problems." rightSide={<Canvas style={{width: '800px', height: '600px'}} camera={{
     fov: 60,
     zoom: 1.45,
     near: 0.1,
