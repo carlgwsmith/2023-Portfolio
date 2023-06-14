@@ -31,7 +31,7 @@ export default function Home(){
             setExpWidth('800px')
             setExpHeight('600px')
         }
-    }, [windowSize]);
+    }, []);
     return(
         <>
         <HeroHome title="Carl G.W. Smith" desc="I’m Carl, a senior product designer and creative developer.
