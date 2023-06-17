@@ -13,7 +13,11 @@ export default function Home(){
 
     useEffect(() => {
         console.log(windowSize.current[0])
-        if(windowSize.current[0] <= 500){
+        if(windowSize.current[0] <= 400){
+            setExpWidth('300px')
+            setExpHeight('200px')
+        }
+        else if(windowSize.current[0] <= 500){
             console.log('smaller')
             setExpWidth('400px')
             setExpHeight('400px')

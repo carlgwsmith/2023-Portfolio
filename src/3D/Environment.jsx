@@ -17,7 +17,7 @@ export default function Experience(){
     
     <Suspense
     fallback={
-    <Placeholder position-y={0.5} scale={[2,2,2]}/>
+    <Placeholder position-y={0} scale={[2,2,2]}/>
     }
     >
     <Model/>
