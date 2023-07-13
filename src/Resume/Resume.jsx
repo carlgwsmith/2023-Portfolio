@@ -8,13 +8,13 @@ export default function Resume(){
             <h1 className="text-xl mt-2 tracking-wide text-center font-bold uppercase">Creative Developer</h1>
             </div>
         </div>
-        <div className="grid grid-cols-12 min-h-[200px] ease-in-out duration-500 bg-background-light px-20 py-20 gap-20">
-        <div className="xs: col-span-12 sm:col-span-6 grid-rows-2">
+        <div className="grid grid-cols-12 min-h-[200px] ease-in-out duration-500 bg-background-light">
+        <div className="sm: col-span-12 mdlg:col-span-6  sm: px-20 sm: py-20 sm: gap-20">
             <h2 className="font-bold uppercase text-2xl">Experience</h2>
             <div className="mt-5">
                 <h3 className="text-lg font-semibold">Product Design Lead</h3>
                 <h4 className="text-base text-gray-500">Iptiq by Swiss Re</h4>
-                <h4 className="text-base text-gray-500">Boston, MA | February 2022 - Current</h4>
+                <h4 className="text-base text-gray-500">Boston, MA | February 2022 - Current</h4> 
                 <p className="text-sm pt-2">Lead product design team in maintaining global design system, creating new product design requirements, areas of opportunity, implementing design in development environments (Unqork, Angular).</p>
             </div>
             <div className="mt-5">
@@ -29,11 +29,11 @@ export default function Resume(){
                 <h4 className="text-base text-gray-500">Topeka, KS | March 2012 - September 2019</h4>
                 <p className="text-sm pt-2">Full service marketing agency for Independent Life Insurance and Annuity Agents.
                 <br/><br/>
-                Motivate and manage a team of creatives. Create functional and accessible websites, develop print and digital collateral, troubleshoot SaSS technical issues, develop proprietary applications, brand development, remain flexible.
+                Motivate and manage a team of creatives. Create functional and accessible websites, develop print and digital collateral, troubleshoot SaSS technical issues develop proprietary applications, brand development remain flexible.
                 </p>
             </div>
         </div>
-        <div className="xs: col-span-12 sm:col-span-6 grid-rows-2">
+        <div className="sm: col-span-12 mdlg:col-span-6 sm: px-20 sm: py-20 sm: gap-20">
             <h2 className="font-bold uppercase text-2xl">Education</h2>
             <div className="mt-5">
                 <h3 className="text-lg font-semibold">Master of Professional Studies</h3>
@@ -61,8 +61,8 @@ export default function Resume(){
             </div>
         </div>
         </div>
-        <div className="grid grid-cols-12 min-h-[200px] ease-in-out duration-500 bg-white px-20 py-20 gap-20">
-            <div className="xs: col-span-12 sm:col-span-6 grid-rows-2">
+        <div className="grid grid-cols-12 min-h-[200px] ease-in-out duration-500 bg-white">
+            <div className="xs: col-span-12 mdlg:col-span-6 sm: px-20 sm: py-20 sm: gap-20">
                 <h2 className="font-bold uppercase text-2xl">Hard Skills</h2>
                 <ul className="list-none">
                     <li>HTML</li>
@@ -73,7 +73,7 @@ export default function Resume(){
                     <li>CMS (Hubspot CMS, Wordpress, Unqork)</li>
                 </ul>
             </div>
-            <div className="xs: col-span-12 sm:col-span-6 grid-rows-2">
+            <div className="xs: col-span-12 sm:col-span-6 sm: px-20 sm: py-20 sm: gap-20">
                 <h2 className="font-bold uppercase text-2xl">Soft Skills</h2>
                 <ul className="list-none">
                     <li>User & Accessibilty Focused</li>
