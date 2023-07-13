@@ -10,7 +10,7 @@ export default function Contact(){
         <div className="m-auto grid mt-16 mb-28 px-[100px]">
             <div>
                 <h1 className="text-4xl font-bold mb-10 text-jet">
-                Would love to hear from you, Let’s talk. 👋
+                Would love to hear from you, Let’s talk. <span class="wobble-hor-bottom">👋</span>
                 </h1>
             <form action="https://api.web3forms.com/submit" method="POST">
             <input className={inputStyle} type="hidden" name="access_key" value={import.meta.env.VITE_REACT_APP_WEB3FORMS_KEY}/>
