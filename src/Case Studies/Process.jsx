@@ -10,7 +10,7 @@ export default function Process(){
             <h2 className="text-center font-bold text-3xl text-jet mb-2">Process</h2>
             <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
         </div>
-        <div className='col-span-4 col-start-2 pb-5'>
+        <div className='sm:col-span-6 mdlg:col-span-4 mdlg:col-start-2 col-start-1 pb-5'>
             <div className="grid grid-cols-auto md:grid-cols-5 sm:grid-cols-5 mt-10 text-center gap-10">
                 <div>
                     <div className={roundIcon}>
