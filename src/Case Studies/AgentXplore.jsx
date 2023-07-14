@@ -123,7 +123,9 @@ export default function AgentExplore (){
             <CaseStudyDescBar year="2023" role="Product Designer, Developer" duration="4 mos"/>
             <Objectives/>
             <Process/>
-            <Research/>
+            <Research content={<div><p>We began the research process by conducting user research. We looked up potential users of the tool to understand their needs and pain points. We also analyzed data from existing life insurance websites to get a sense of the market.</p>
+                    <p className="mt-5">Based on our research, we developed a set of user personas. These personas represent the different types of users who would use the tool. We used the personas to guide our design decisions.</p>
+                    <p className="mt-5">We then created wireframes and prototypes of the tool.</p></div>}/>
             <Persona
             pic={persona1}
             name="John Smith"
@@ -150,7 +152,11 @@ export default function AgentExplore (){
             solutions={solutions2}
             benefits={benefits1}
             />
-            <Defining/>
+            <Defining
+            identify="In this case, the need for the application is to help people find life insurance agents in their area. The users of the application are people who are looking for life insurance. Their needs are to find agents who are qualified and trustworthy, and who can help them find the right life insurance policy for their needs."
+            purpose="The purpose of the application is to help people find life insurance agents in their area. The application will help users accomplish this by providing them with a list of agents in their area, as well as information about each agent, such as their experience, qualifications, and fees."
+            features="The features that the application will need to have include the ability to search for agents by location, specialty, and other criteria. The application will also need to provide users with information about each agent, such as their experience, qualifications, and fees."
+            />
             <DesignSystem/>
             <Mockups/>
         </div>

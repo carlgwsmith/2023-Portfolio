@@ -1,4 +1,4 @@
-export default function Research(){
+export default function Research(props){
     return(
         <div className="bg-background-light p-10 pt-6 pb-10 text-jet sm:p-2">
             <div className="grid grid-cols-6">
@@ -9,9 +9,7 @@ export default function Research(){
             </div>
             <div className="grid grid-cols-6">
                 <div className="col-start-2 col-span-4">
-                    <p>We began the research process by conducting user research. We looked up potential users of the tool to understand their needs and pain points. We also analyzed data from existing life insurance websites to get a sense of the market.</p>
-                    <p className="mt-5">Based on our research, we developed a set of user personas. These personas represent the different types of users who would use the tool. We used the personas to guide our design decisions.</p>
-                    <p className="mt-5">We then created wireframes and prototypes of the tool.</p>
+                    {props.content}
                 </div>
             </div>
 

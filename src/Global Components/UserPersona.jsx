@@ -1,5 +1,7 @@
 export default function Persona(props){
 
+    const isFlow = props.isFlow;
+
     return(
         <div className="bg-background-light md:px-40 pt-6 pb-10 text-jet sm:px-10 px-10">
         <div className="grid grid-cols-3 gap-4 rounded border-solid border-2 border-stone-800 bg-white p-10">
@@ -46,9 +48,14 @@ export default function Persona(props){
                 {props.benefits.map((item)=>{
                 return <li key={item.id} className="text-xs mt-1 mb-1">{item.content}</li>
             })}
-                
             </div>
         </div>
+        { isFlow && 
+                <div className="text-center mt-10 pb-10">
+                <h2 className="text-lg font-semibold mb-2">User Flow</h2>
+                <img src={props.flowSrc} class="w-full"></img>
+                </div>
+            }
         </div>
     )
 }
