@@ -10,7 +10,8 @@
 
   .active{
     font-weight: 600;
-    text-decoration: underline;
+    border-bottom-width: 3px;
+    border-color: #323031;
 }
 .horizontal-circle {
   border-bottom: 2px solid #323031;
@@ -35,67 +36,21 @@
   right: 0;
   left: auto;
 }
-.wobble-hor-bottom {
-	-webkit-animation: wobble-hor-bottom 0.8s 4s infinite both;
-	        animation: wobble-hor-bottom 0.8s 4s infinite both;
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
 }
 
- @-webkit-keyframes wobble-hor-bottom {
-    0%,
-    100% {
-      -webkit-transform: translateX(0%);
-              transform: translateX(0%);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-    }
-    15% {
-      -webkit-transform: translateX(-30px) rotate(-6deg);
-              transform: translateX(-30px) rotate(-6deg);
-    }
-    30% {
-      -webkit-transform: translateX(15px) rotate(6deg);
-              transform: translateX(15px) rotate(6deg);
-    }
-    45% {
-      -webkit-transform: translateX(-15px) rotate(-3.6deg);
-              transform: translateX(-15px) rotate(-3.6deg);
-    }
-    60% {
-      -webkit-transform: translateX(9px) rotate(2.4deg);
-              transform: translateX(9px) rotate(2.4deg);
-    }
-    75% {
-      -webkit-transform: translateX(-6px) rotate(-1.2deg);
-              transform: translateX(-6px) rotate(-1.2deg);
-    }
-  }
-  @keyframes wobble-hor-bottom {
-    0%,
-    100% {
-      -webkit-transform: translateX(0%);
-              transform: translateX(0%);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-    }
-    15% {
-      -webkit-transform: translateX(-30px) rotate(-6deg);
-              transform: translateX(-30px) rotate(-6deg);
-    }
-    30% {
-      -webkit-transform: translateX(15px) rotate(6deg);
-              transform: translateX(15px) rotate(6deg);
-    }
-    45% {
-      -webkit-transform: translateX(-15px) rotate(-3.6deg);
-              transform: translateX(-15px) rotate(-3.6deg);
-    }
-    60% {
-      -webkit-transform: translateX(9px) rotate(2.4deg);
-              transform: translateX(9px) rotate(2.4deg);
-    }
-    75% {
-      -webkit-transform: translateX(-6px) rotate(-1.2deg);
-              transform: translateX(-6px) rotate(-1.2deg);
-    }
-  }
-  
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
