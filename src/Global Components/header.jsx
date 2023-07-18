@@ -6,22 +6,25 @@ import { NavLink, useLocation } from "react-router-dom";
 function Header(){
 
 const [navbarOpen, setNavbarOpen] = useState(false);
+const [logoEffect, setLogoEffect] = useState('w-full text-[24px] font-bold tracking-tighter text-jet');
     
 const handleNav = ()=>{
     setNavbarOpen(!navbarOpen)
 }
 
-
 const location = useLocation()
 useEffect(() => {
-    setNavbarOpen(false)
+    setNavbarOpen(false);
+    setLogoEffect('tracking-in-expand w-full text-[24px] font-bold tracking-tighter text-jet')
+    console.log(location)
 }, [location]);
 
-const linkStyle= 'm-4  hover:border-jet-light border-white border-b-[3px] duration-300'
+
+const linkStyle= 'm-4 hover:text-shadow-pop-bl hover:border-jet-light border-white border-b-[3px] duration-300'
 
     return(
         <div className="flex justify-between items-center w-full bg-white border-b-2 py-8 px-10 border-jet h-12 text-jet">
-                <div className="w-full text-xl font-bold tracking-tighter text-jet">CGWS</div>
+                <div className={logoEffect}>CGWS</div>
                 <ul className="hidden md:flex text-[16px] ease-in-out duration-500">
                     <li className={linkStyle}> 
                         <NavLink to={`/`}>
