@@ -21,7 +21,7 @@ export default function FeaturedWork(props){
                         projName="Agentxplore"
                         projDesc="A design case study for an insurance agent search tool that allows users to find professionals that match their specific needs."
                         buttonCTA="View AgentXplore Study"
-                        buttonLink={`/portfolio/agentxplore`}
+                        buttonLink={`/portfolio/agentxplore#top`}
                     />
                     </div>
                     <div>
@@ -30,7 +30,7 @@ export default function FeaturedWork(props){
                         projName="Finary"
                         projDesc="A design case study for an financial advisor CRM to track client’s progress and analyze their needs and goals."
                         buttonCTA="View Finary Study"
-                        buttonLink={`/portfolio/finary`}
+                        buttonLink={`/portfolio/finary#top`}
                     />
                     </div>
                     <div className={props.cardMargin}>
