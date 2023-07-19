@@ -15,7 +15,7 @@ export default function Resume(){
                 <h3 className="text-lg font-semibold">Senior Software Engineer</h3>
                 <h4 className="text-base text-gray-500">T. Rowe Price</h4>
                 <h4 className="text-base text-gray-500">June 2022 - Current</h4> 
-                <p className="text-sm pt-2">Design and engineer UI for enterprise financial software using ReactJS, VueJS and more.</p>
+                <p className="text-sm pt-2">Design and engineer UI for enterprise financial software to align with global design system using ReactJS, VueJS and more.</p>
             </div>
             <div className="mt-5">
                 <h3 className="text-lg font-semibold">Product Design Lead</h3>
