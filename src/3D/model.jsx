@@ -18,7 +18,7 @@ export default function Model(){
         // modelprim.current.rotation.y +=(delta * 0.2)
     })
     
-    const play = 'w-[100px] p-3 bg-white text-jet bg-opacity-60 rounded'
+    const play = 'w-[100px] mr-[20px] p-3 bg-white text-jet bg-opacity-60 rounded-full fade-in'
     return (
     <>
     <Html className={play}>DRAG ME!</Html>
