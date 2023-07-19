@@ -12,9 +12,15 @@ export default function Resume(){
         <div className="sm: col-span-12 mdlg:col-span-6  sm: px-20 sm: py-20 sm: gap-20">
             <h2 className="font-bold uppercase text-2xl">Experience</h2>
             <div className="mt-5">
+                <h3 className="text-lg font-semibold">Senior Software Engineer</h3>
+                <h4 className="text-base text-gray-500">T. Rowe Price</h4>
+                <h4 className="text-base text-gray-500">June 2022 - Current</h4> 
+                <p className="text-sm pt-2">Design and engineer UI for enterprise financial software using ReactJS, VueJS and more.</p>
+            </div>
+            <div className="mt-5">
                 <h3 className="text-lg font-semibold">Product Design Lead</h3>
                 <h4 className="text-base text-gray-500">Iptiq by Swiss Re</h4>
-                <h4 className="text-base text-gray-500">Boston, MA | February 2022 - Current</h4> 
+                <h4 className="text-base text-gray-500">Boston, MA | February 2022 - June 2023</h4> 
                 <p className="text-sm pt-2">Lead product design team in maintaining global design system, creating new product design requirements, areas of opportunity, implementing design in development environments (Unqork, Angular).</p>
             </div>
             <div className="mt-5">
