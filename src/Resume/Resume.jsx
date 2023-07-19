@@ -3,9 +3,9 @@ export default function Resume(){
     <div>
         <div className="grid grid-cols-12 min-h-[200px] ease-in-out duration-500 bg-white px-4">
         <div className="col-span-12 m-auto grid-rows-2">
-            <h1 className="text-4xl font-bold tracking-wide">Carl G.W. Smith</h1>
+            <h1 className="text-4xl font-bold tracking-in-expand">Carl G.W. Smith</h1>
             <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1 animate-bganimate "></div>
-            <h1 className="text-xl mt-2 tracking-wide text-center font-bold uppercase">Creative Developer</h1>
+            <h1 className="text-xl mt-2 tracking-in-expand text-center font-bold uppercase">Creative Developer</h1>
             </div>
         </div>
         <div className="grid grid-cols-12 min-h-[200px] ease-in-out duration-500 bg-background-light">
