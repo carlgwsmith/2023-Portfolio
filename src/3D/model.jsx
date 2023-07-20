@@ -31,10 +31,10 @@ export default function Model(){
     <primitive 
         ref={modelprim}
         object={model.scene}
-        position={[-1.2,-.5,-1]}
+        position={[-1.4,-.5,-.75]}
         scale={.4}
-        rotation-y={4.7}
-        rotation-z={0.02}
+        rotation-y={5}
+        rotation-z={0.03}
         rotation-x={0}
         onPointerOver={(e) => {
             setHover(true);
