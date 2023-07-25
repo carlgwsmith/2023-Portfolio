@@ -14,7 +14,7 @@ export default function Microprojects(props){
     <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
         </div>
         <div className="col-span-3 m-auto">
-            <div className="grid grid-cols-auto sm:grid-cols-1 mdlg:grid-cols-3 gap-6 items-center mt-10">
+            {/* <div className="grid grid-cols-auto sm:grid-cols-1 mdlg:grid-cols-3 gap-6 items-center mt-10">
                 <div className={props.cardMargin}>
                 <WorkCard
                     featuredImg="/AgentXploreFeatureImage.png"
@@ -42,7 +42,9 @@ export default function Microprojects(props){
                     buttonLink={`/portfolio/iptiq`}
                 />
                 </div>
-            </div>
+                 
+            </div> */}
+            <h2 className="text-center mt-10 font-semibold text-3xl text-jet tracking-in-expand">Coming Soon!</h2>
         </div>
     </div>
     )
