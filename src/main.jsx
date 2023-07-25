@@ -53,7 +53,9 @@ const router = createBrowserRouter([
       },
     ]
   },
-]);
+],{
+  basename:"/2023-Portfolio"
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
