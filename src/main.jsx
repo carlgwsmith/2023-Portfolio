@@ -54,7 +54,7 @@ const routes = [
   },
 ]
 const router = createBrowserRouter(routes,{
-  basename:"/2023-Portfolio"
+  basename:"/"
 });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
