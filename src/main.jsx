@@ -13,8 +13,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-
-const router = createBrowserRouter([
+const routes = [
   {
     path:'',
     element: <Root/>,
@@ -53,7 +52,8 @@ const router = createBrowserRouter([
       },
     ]
   },
-],{
+]
+const router = createBrowserRouter(routes,{
   basename:"/2023-Portfolio"
 });
 
