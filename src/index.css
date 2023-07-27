@@ -173,3 +173,6 @@
             transform: translateX(8px) translateY(-8px);
   }
 }
+.htmlCanvas{
+  z-index: 999 !important;
+}

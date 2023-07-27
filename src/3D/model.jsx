@@ -19,11 +19,11 @@ export default function Model(){
         // modelprim.current.rotation.y +=(delta * 0.2)
     })
     
-    const play = 'w-[140px] fixed ml-[-40px] p-3 bg-white text-jet bg-opacity-60 rounded-full fade-in'
-    const noplay = 'w-[140px] fixed ml-[-40px] p-3 bg-white text-jet bg-opacity-60 rounded-full fade-out'
+    const play = 'w-[140px] fixed ml-[-40px] p-3 bg-white text-jet bg-opacity-60 rounded-full fade-in pointer-events-none'
+    const noplay = 'w-[140px] fixed ml-[-40px] p-3 bg-white text-jet bg-opacity-60 rounded-full fade-out pointer-events-none'
     return (
     <>
-    <Html className={hover ? noplay : play}>PLAY WITH ME!</Html>
+    <Html wrapperClass="htmlCanvas" className={hover ? noplay : play}>PLAY WITH ME!</Html>
      <OrbitControls enableDamping
     enablePan
     enableRotate
