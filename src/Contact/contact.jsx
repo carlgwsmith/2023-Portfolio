@@ -6,8 +6,8 @@ export default function Contact(){
     const submitStyle='bg-sunglow h-10 px-4 text-jet font-semibold float-right rounded-md hover:opacity-80'
     const labelStyle='block text-jet mb-1'
     return(
-    <div className="h-[500px]">
-        <div className="m-auto grid mt-16 mb-28 px-[100px]">
+    <div>
+        <div className="xs: px-3 m-auto grid mt-16 mb-28 px-[100px]">
             <div>
                 <h1 className="text-4xl font-bold mb-10 text-jet">
                 Would love to hear from you, Let’s talk. <span class="wave">👋</span>
