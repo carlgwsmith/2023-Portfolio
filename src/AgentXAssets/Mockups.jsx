@@ -10,7 +10,7 @@ export default function Mockups(){
                     <h2 className="text-center font-bold text-3xl text-jet mb-3">Mockups & Prototypes</h2>
                     <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
                 </div>
-                <div className="col-start-2 col-span-4">
+                <div className="xs:col-span-6 col-start-2 col-span-4">
                 <p>When designing, we needed to take account for not only the desktop view but the mobile view as well. We also had to take into account how the application would look from the perspective of both the searcher vs. the agent. There we are a set of key features that I wanted to included like customer reviews, and contextual search. </p>
                 </div>
                 <div className="col-span-6 text-center mt-10">

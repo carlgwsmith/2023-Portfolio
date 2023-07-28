@@ -123,7 +123,7 @@ export default function AgentExplore (){
             <CaseStudyDescBar year="2023" role="Product Designer, Developer" duration="4 mos"/>
             <Objectives/>
             <Process/>
-            <Research content={<div><p>We began the research process by conducting user research. We looked up potential users of the tool to understand their needs and pain points. We also analyzed data from existing life insurance websites to get a sense of the market.</p>
+            <Research content={<div className='col-span-full'><p>We began the research process by conducting user research. We looked up potential users of the tool to understand their needs and pain points. We also analyzed data from existing life insurance websites to get a sense of the market.</p>
                     <p className="mt-5">Based on our research, we developed a set of user personas. These personas represent the different types of users who would use the tool. We used the personas to guide our design decisions.</p>
                     <p className="mt-5">We then created wireframes and prototypes of the tool.</p></div>}/>
             <Persona

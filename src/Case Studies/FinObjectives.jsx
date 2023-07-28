@@ -14,7 +14,7 @@ export default function Objectives(){
             </div>
             <div className="mt-4 md:col-span-3 sm:col-span-6 col-span-6">
             <h2 className="text-center text-xl font-semibold">Business Challenges</h2>
-            <ul className='mt-4 text-md font-medium ml-20'>
+            <ul className='xs: ml-0 ml-20 mt-4 text-md font-medium'>
                 <li className='mb-4'><BiChevronRight className='inline -mt-1' size="22px"/> Attracting & Retaining Clients</li>
                 <li className='mb-4'><BiChevronRight className='inline -mt-1' size="22px"/> Managing Risk</li>
                 <li className='mb-4'><BiChevronRight className='inline -mt-1' size="22px"/> Regulatory Compliance</li>
