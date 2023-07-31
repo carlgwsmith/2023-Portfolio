@@ -16,7 +16,7 @@ export default function designSystem(){
                 <div className="xs:col-span-6 col-span-3">
                     <img src={Palette} width="600px"/>
                 </div>
-                <div className='xs:hidden col-span-1'>
+                <div className='xs:hidden sm:block col-span-1'>
                     <div className='horizontal-circle m-auto'></div>
                 </div>
                 <div className='xs:col-span-6 col-span-2'>
@@ -26,7 +26,7 @@ export default function designSystem(){
                 <div className="xs:col-span-6 col-span-3">
                     <img src={Buttons} width="600px"/>
                 </div>
-                <div className='xs:hidden col-span-1'>
+                <div className='xs:hidden sm:block col-span-1'>
                     <div className='horizontal-circle m-auto'></div>
                 </div>
                 <div className='xs:col-span-6 col-span-2'>
@@ -36,10 +36,10 @@ export default function designSystem(){
                 <div className="xs:col-span-6 col-span-3">
                     <img src={ui1} width="600px"/>
                 </div>
-                <div className='xs:hidden col-span-1'>
+                <div className='xs:hidden sm:block col-span-1'>
                     <div className='horizontal-circle m-auto'></div>
                 </div>
-                <div className='xs:col-span-6 first-letter:col-span-2'>
+                <div className='xs:col-span-6 xs:col-span-2'>
                     <h2 className="text-xl font-semibold mb-2">Typography & Iconography</h2>
                     <p>Type has a consistent style, size, and hierarchy. Using larger text for call to actions, smaller size for body to create a sense of structure. Consistent space between headings, body, and around images create visual separation. The creation of a typography system helps improve the overall usability and design.
                     <br/><br/>
