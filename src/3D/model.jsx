@@ -1,5 +1,5 @@
 import {  useFrame } from "@react-three/fiber"
-import {  OrbitControls, Html, useGLTF } from '@react-three/drei'
+import {   Html, useGLTF } from '@react-three/drei'
 import { useState, useRef } from 'react'
 export default function Model(props){
     const modelprim = useRef()
@@ -18,10 +18,6 @@ export default function Model(props){
     return (
     <>
     <Html wrapperClass="htmlCanvas" className={hover ? noplay : play}>PLAY WITH ME!</Html>
-    <OrbitControls enableDamping
-    enablePan
-    enableRotate
-    enableZoom={false} />
     <group {...props} dispose={null} className="model" position={[-1.4,-.5,-.75]}
     scale={.4}
     rotation-y={5}
