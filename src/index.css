@@ -36,6 +36,30 @@
   right: 0;
   left: auto;
 }
+.modelScene{
+  position: relative;
+  width: 100%;
+  float:right;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: auto;
+}
+.interface{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  /* right: 2cm;
+  bottom: 2cm;
+  left: 2cm; */
+  padding: 1.25cm 0;
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+  animation: interface 2s;
+}
 .fade-in {
 	-webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
