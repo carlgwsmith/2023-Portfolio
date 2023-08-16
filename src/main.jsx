@@ -14,6 +14,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 const routes = [
+  {path:'*',
+element:<Home/>},
   {
     path:'',
     element: <Root/>,
