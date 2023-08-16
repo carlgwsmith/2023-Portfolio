@@ -14,7 +14,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 const routes = [
-  {path:'*',
+  {path:'/*',
 element:<Home/>},
   {
     path:'',
