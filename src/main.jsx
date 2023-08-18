@@ -19,6 +19,7 @@ element:<Home/>},
   {
     path:'',
     element: <Root/>,
+    errorElement: <Home/>,
     children:[
       {
         index:true,
