@@ -11,7 +11,7 @@ export default function Process(){
             <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
         </div>
         <div className='xs:col-span-6 sm: col-span-4 mdlg: col-span-4 mdlg: col-start-2 col-start-1 pb-5'>
-            <div className="grid grid-cols-auto md:grid-cols-5 sm:grid-cols-5 mt-10 text-center gap-10">
+            <div className="grid grid-cols-auto md:grid-cols-5 sm:grid-cols-5 mt-10 px-32 text-center gap-10">
                 <div>
                     <div className={roundIcon}>
                     <BiSearchAlt size="40px" color="#323031" />

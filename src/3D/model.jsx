@@ -35,8 +35,8 @@ export default function Model(props){
         if(size.width <= 400){
           setRight('false')
           setPosX(-1.3)
-          setPosY(-4)
-          setScale(.3)
+          setPosY(-.4)
+          setScale(.15)
           // console.log('less than 1400' + modelprim.current.scale)
         }
         else if(size.width <= 500){

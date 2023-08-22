@@ -6,6 +6,7 @@ export default {
   theme: {
     screens: {
       'xs': '0px',
+      'iphone':'440px',
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
       'md': '768px',

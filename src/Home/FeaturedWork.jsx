@@ -14,7 +14,7 @@ export default function FeaturedWork(props){
         <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
             </div>
             <div className="col-span-3 m-auto">
-                <div className="grid grid-cols-auto sm:grid-cols-1 mdlg:grid-cols-3 gap-6 items-center mt-10">
+                <div className="grid grid-cols-auto :grid-cols-1 mdlg:grid-cols-3 gap-6 items-center mt-10">
                     <div className={props.cardMargin}>
                     <WorkCard
                         featuredImg="/AgentXploreFeatureImage.png"
@@ -33,7 +33,7 @@ export default function FeaturedWork(props){
                         buttonLink={`/portfolio/finary`}
                     />
                     </div>
-                    <div className={props.cardMargin}>
+                    <div className={props.cardMargin} >
                     <WorkCard
                         featuredImg="/iptiqEappFeatureImage.png"
                         projName="IptiQ E-App"

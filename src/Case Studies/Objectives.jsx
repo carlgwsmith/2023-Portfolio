@@ -2,7 +2,7 @@ import {BiChevronRight} from 'react-icons/bi'
 
 export default function Objectives(){
     return(
-        <div className="grid grid-cols-6 text-jet bg-background-light py-10 px-10 gap-10">
+        <div className="grid grid-cols-6 text-jet bg-background-light py-10 px-32 gap-10">
             <div className="mt-4 md:col-span-3 sm:col-span-6 col-span-6">
                 <h2 className="text-center text-xl font-semibold">Objectives & Goals</h2>
                 <ol className="list-decimal mt-4 ml-10 text-sm">
