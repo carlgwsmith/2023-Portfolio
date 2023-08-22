@@ -59,7 +59,7 @@ function HeroHome(props) {
         <div className="xs:px-0 overflow-hidden grid grid-cols-12 min-h-[400px] ease-in-out duration-500  sm:px-10" >
             <div className="xs:col-span-12 sm:col-span-12 sm:mt-14 mdlg:col-span-5 mdlg:m-auto md:col-span-10 md:mt-2 xs:mt-10 xs:mx-5 grid-rows-2">
                 <div className="xs:px-4 row-span-1">
-                <div className="iphone:text-2xl xs:px-4 xs:text-[32px] sm:text-5xl md:text-6xl mdlg:text-[60px] font-extrabold tracking-wider text-jet sm:mt-1 md:mt-10">{props.title}</div>
+                <div className="iphone:text-2xl xs:px-4 xs:text-[32px] sm:text-5xl md:text-6xl mdlg:text-[48px] font-extrabold tracking-wider text-jet sm:mt-1 md:mt-10">{props.title}</div>
                 <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1 animate-bganimate "></div>
                 </div>
                 <div className="row-span-1">

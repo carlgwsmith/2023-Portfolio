@@ -20,7 +20,7 @@ export default function Model(props){
     useFrame((state, delta)=>{
       const time = state.clock.elapsedTime
       console.log(modelprim.current.rotation.x)
-      if(hover){
+      if(!hover){
         // modelprim.current.rotation.x += .0005
         
         modelprim.current.rotation.y = 5 + Math.cos(time/3) / 6
