@@ -5,13 +5,13 @@ export default function Process(){
     const iconName = 'font-medium mt-2'
 
     return(
-        <div className="sm: px-5 px-40 py-6 grid grid-cols-6 text-jet">
+        <div className="sm:px-20 md:px-40 py-10 grid grid-cols-6 text-jet">
         <div className='m-auto xs: col-start-0 col-start-2 col-span-4 pt-5 pb-5'>
             <h2 className="text-center font-bold text-3xl text-jet mb-2">Process</h2>
             <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1  animate-bganimate "></div>
         </div>
-        <div className='xs:col-span-6 sm: col-span-4 mdlg: col-span-4 mdlg: col-start-2 col-start-1 pb-5'>
-            <div className="grid grid-cols-auto md:grid-cols-5 sm:grid-cols-5 mt-10 px-32 text-center gap-10">
+        <div className='xs:col-span-12 sm: col-span-8 mdlg: col-span-8 mdlg: col-start-4 col-start-1 pb-5'>
+            <div className="grid grid-cols-auto md:grid-cols-5 sm:grid-cols-5 mt-10 text-center gap-8">
                 <div>
                     <div className={roundIcon}>
                     <BiSearchAlt size="40px" color="#323031" />

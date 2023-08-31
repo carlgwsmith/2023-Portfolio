@@ -200,3 +200,17 @@
 .htmlCanvas{
   z-index: 999 !important;
 }
+canvas{
+  touch-action: none;
+}
+.htmlScreen iframe{
+  width: 800px;
+  height: 470px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+}
+.htmlScreen iframe::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}

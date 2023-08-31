@@ -4,7 +4,7 @@ import mock3 from '../assets/agents-mock3.png'
 
 export default function Mockups(){
     return(
-        <div className="bg-white p-10 pt-6 pb-10 text-jet">
+        <div className="bg-white py-10 xs:px-10 sm:px-10 md:px-40 text-jet">
             <div className="grid grid-cols-6 gap-4 align-middle items-center">
                 <div className='m-auto col-start-2 col-span-4 pt-5 pb-5'>
                     <h2 className="text-center font-bold text-3xl text-jet mb-3">Mockups & Prototypes</h2>

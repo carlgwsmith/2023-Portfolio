@@ -8,11 +8,11 @@ export default function Defining(props){
                 </div>
                 <div className="col-span-6 mb-10">
                     <h2 className="text-lg font-semibold mb-2">Identify:</h2>
-                    <p>{props.identify}</p>
+                    <p className="pb-10">{props.identify}</p>
                     <h2 className="text-lg font-semibold mb-2 mt-4">Purpose:</h2>
-                    <p>{props.purpose}</p>
+                    <p className="pb-10">{props.purpose}</p>
                     <h2 className="text-lg font-semibold mb-2 mt-4">Features:</h2>
-                    <p>
+                    <p className="pb-10">
                     {props.features}</p>
                 </div>
             </div>
