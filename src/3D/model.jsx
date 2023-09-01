@@ -41,16 +41,16 @@ export default function Model(props){
       portalMaterial.current.uTime += delta;
   })
 
-    useFrame((state, delta)=>{
-      const time = state.clock.elapsedTime
-      console.log(modelprim.current.rotation.x)
-      if(!hover){
-        // modelprim.current.rotation.x += .0005
+    // useFrame((state, delta)=>{
+    //   const time = state.clock.elapsedTime
+    //   console.log(modelprim.current.rotation.x)
+    //   if(!hover){
+    //     // modelprim.current.rotation.x += .0005
         
-        modelprim.current.rotation.y = 4.2 + Math.cos(time/3) / 6
-      }
+    //     modelprim.current.rotation.y = 4.2 + Math.cos(time/3) / 6
+    //   }
 
-    })
+    // })
     useFrame((state, delta) =>
     {
         const time = state.clock.elapsedTime
@@ -60,7 +60,7 @@ export default function Model(props){
           setRight('false')
           setPosX(-1.3)
           setPosY(-.4)
-          setScale(.15)
+          setScale(.12)
           // console.log('less than 1400' + modelprim.current.scale)
         }
         else if(size.width <= 500){
@@ -70,17 +70,17 @@ export default function Model(props){
           setScale(.15)
           // console.log('less than 1400' + modelprim.current.scale)
         }
-        else if(size.width < 800){
+        else if(size.width < 860){
           setRight('false')
-          setPosX(-1.4)
-          setPosY(-.4)
+          setPosX(-1.3)
+          setPosY(-.3)
           setScale(.18)
           // console.log('less than 1400' + modelprim.current.scale)
           // modelprim.current.position = [1,1,1]
         }
         else if(size.width < 940){
           setRight('false')
-          setPosX(-1.8)
+          setPosX(-1.2)
           setPosY(-.4)
           setScale(.18)
           // console.log('less than 1400' + modelprim.current.scale)
@@ -88,23 +88,23 @@ export default function Model(props){
         }
         else if(size.width < 1200){
           setRight('true')
-          setPosX(-.1)
-          setPosY(.15)
+          setPosX(-2.6)
+          setPosY(.2)
           setScale(.2)
           // console.log('less than 1200')
         }
         else if(size.width < 1400){
           setRight('true')
-          setPosX(-.1)
-          setPosY(.15)
-          setScale(.2)
+          setPosX(-2.8)
+          setPosY(.02)
+          setScale(.24)
           // console.log('less than 1400')
         }
          else{
           setRight('true')
-          setPosX(.2)
-          setPosY(.15)
-          setScale(.22)
+          setPosX(-2.85)
+          setPosY(.14)
+          setScale(.24)
         }
     })
 

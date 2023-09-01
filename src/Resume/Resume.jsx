@@ -9,7 +9,7 @@ export default function Resume(){
             </div>
         </div>
         <div className="grid grid-cols-12 min-h-[200px] ease-in-out duration-500 bg-background-light">
-        <div className="sm: col-span-12 mdlg:col-span-6  sm: px-20 sm: py-20 sm: gap-20">
+        <div className="sm: col-span-12 lgsm:col-span-6  sm: px-20 sm: py-20 sm: gap-20">
             <h2 className="font-bold uppercase text-2xl">Experience</h2>
             <div className="mt-5">
                 <h3 className="text-lg font-semibold">Senior Software Engineer</h3>
@@ -39,7 +39,7 @@ export default function Resume(){
                 </p>
             </div>
         </div>
-        <div className="sm: col-span-12 mdlg:col-span-6 sm: px-20 sm: py-20 sm: gap-20">
+        <div className="sm: col-span-12 lgsm:col-span-6 sm: px-20 sm: py-20 sm: gap-20">
             <h2 className="font-bold uppercase text-2xl">Education</h2>
             <div className="mt-5">
                 <h3 className="text-lg font-semibold">Master of Professional Studies</h3>

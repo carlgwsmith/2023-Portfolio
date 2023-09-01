@@ -1,6 +1,8 @@
 import Experience from "../3D/Environment"
 import { Canvas } from "@react-three/fiber"
 import { useRef, useEffect, useState } from 'react'
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 function HeroHome(props) {
     const [expWidth, setExpWidth] = useState('800px')
     const [expHeight, setExpHeight] = useState('600px')
@@ -57,9 +59,9 @@ function HeroHome(props) {
   </div>
   <div className="interface">
         <div className="xs:px-0 overflow-hidden grid grid-cols-12 min-h-[400px] ease-in-out duration-500  sm:px-10" >
-            <div className="xs:col-span-12 sm:col-span-12 sm:mt-14 mdlg:col-span-5 mdlg:m-auto md:col-span-10 md:mt-2 xs:mt-10 xs:mx-5 grid-rows-2">
+            <div className="xs:col-span-12 sm:col-span-12 sm:mt-14 lgsm:col-span-6 lg:col-span-5 lgsm:m-auto md:col-span-12 mdlg:mt-4 md:mt-10 xs:mt-10 xs:mx-5 grid-rows-2">
                 <div className="xs:px-4 row-span-1">
-                <div className="iphone:text-2xl xs:px-4 xs:text-[32px] sm:text-5xl md:text-6xl mdlg:text-[48px] font-extrabold tracking-wider text-jet sm:mt-1 md:mt-10">{props.title}</div>
+                <div className="iphone:text-[42px] xs:px-4 xs:text-[42px] sm:text-[42px] md:text-[48px] mdlg:text-[48px] lgsm:text-[40px] lg:text-[46px] xl:text-[58px] font-extrabold tracking-wider text-jet sm:mt-1 md:mt-10">{props.title}</div>
                 <div className="bg-gradient-to-r from-[#FF3C35] via-[#fbb21b] to-[#ff3c35] h-1 animate-bganimate "></div>
                 </div>
                 <div className="row-span-1">

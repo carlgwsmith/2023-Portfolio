@@ -26,14 +26,14 @@ export default function Experience(){
     >
     <PresentationControls 
         global
-        rotation={[0,0,0]}
-        polar={[-0.4, 0.2]}
-        azimuth={[0,0.5]}
-        config={{mass:2, tension: 400}}
+        rotation={[0,3.5,0]}
+        polar={[-0.01, 0.01]}
+        azimuth={[0,0.2]}
+        config={{mass:1, tension: 400}}
         snap={{mass: 1, tension: 200}}
         >
-        <Float rotationIntensity={0} floatingRange={.8} floatIntensity={0.1}>
-    <Model onPointOver={()=>{}} position-x={.8}/>
+        <Float rotationIntensity={.4} floatingRange={.8} floatIntensity={0.1}>
+    <Model />
     </Float>
     </PresentationControls>
     </Suspense>
