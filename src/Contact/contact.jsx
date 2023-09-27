@@ -1,6 +1,5 @@
 export default function Contact(){
 
-    console.log(import.meta.env.REACT_APP_WEB3FORMS_KEY)
 
     const inputStyle='p-2 border-solid border-2 border-slate-900 rounded-md mb-5 focus:bg-slate-100'
     const submitStyle='bg-sunglow h-10 px-4 text-jet font-semibold float-right rounded-md hover:opacity-80'
