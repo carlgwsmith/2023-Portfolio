@@ -12,13 +12,13 @@ export default function Footer(){
                 <div className='col-span-4 col-start-2 pb-5'>
                     <div className="grid grid-cols-auto iphone:grid-cols-3 iphone:gap-10 md:grid-cols-3 mt-10 text-center">
                         <div>
-                            <a href="" className='hover:underline'><BsDribbble size={20} style={{display:'inline-block'}}/> Dribbble</a>
+                            <a href="https://dribbble.com/carlgwsmith" target="_blank" className='hover:underline'><BsDribbble size={20} style={{display:'inline-block'}}/> Dribbble</a>
                         </div>
                         <div>
-                            <a href="" className='hover:underline'><BsLinkedin size={20} style={{display:'inline-block'}}/> LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/carl-gw-smith/" target="_blank" className='hover:underline'><BsLinkedin size={20} style={{display:'inline-block'}}/> LinkedIn</a>
                         </div>
                         <div>
-                            <a href="" className='hover:underline'><BsGithub size={20} style={{display:'inline-block'}}/> GitHub</a>
+                            <a href="https://github.com/carlgwsmith" target="_blank" className='hover:underline'><BsGithub size={20} style={{display:'inline-block'}}/> GitHub</a>
                         </div>
                     </div>
                 </div>

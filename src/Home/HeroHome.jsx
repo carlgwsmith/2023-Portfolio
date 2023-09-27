@@ -1,3 +1,4 @@
+import { Loader } from "@react-three/drei"
 import Experience from "../3D/Environment"
 import { Canvas } from "@react-three/fiber"
 import { useRef, useEffect, useState } from 'react'
@@ -56,6 +57,7 @@ function HeroHome(props) {
     far:far,
     position:position
   }}><Experience/></Canvas>
+  <Loader/>
   </div>
   <div className="interface">
         <div className="xs:px-0 overflow-hidden grid grid-cols-12 min-h-[400px] ease-in-out duration-500  sm:px-10" >

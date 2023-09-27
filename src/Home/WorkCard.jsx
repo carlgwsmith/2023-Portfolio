@@ -1,12 +1,29 @@
 import { Link } from "react-router-dom";
+import Skeleton from "react-loading-skeleton"
+import { useEffect, useState } from "react";
 
 export default function WorkCard(props){
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false)
+        }, 1000);
+    }, []);
     return(
         <div className="w-[300px] bg-[#f4f4f4] rounded-lg border-solid border-jet-light border-2">
             <div className="grid">
-                <div><img src={props.featuredImg}/></div>
-                <div className="p-5">
-                    <div className="text-lg font-semibold">{props.projName}</div>
+                { loading ? 
+                <div className="bg-white">
+                <Skeleton height={218}/>
+                <Skeleton count={4}/>
+                </div>
+                :
+                <div>
+                     <div className="grid">
+                    <img src={props.featuredImg}/></div>
+                    <div className="p-5">
+                    <div className="text-lg font-extra-bold">{props.projName}</div>
                     <div className="text-sm">{props.projDesc}</div>
                 </div>
                 <div className="text-center p-5">
@@ -17,6 +34,7 @@ export default function WorkCard(props){
                         </div>
                     </Link>
                 </div>
+                </div>}
             </div>
         </div>
     )

@@ -9,6 +9,7 @@ import Projects from './Portfolio/Portfolio';
 import Resume from './Resume/Resume';
 import Contact from './Contact/contact';
 import Root from './routes/root';
+import ErrorPage from './error-page';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -19,7 +20,7 @@ element:<Home/>},
   {
     path:'',
     element: <Root/>,
-    errorElement: <Home/>,
+    errorElement: <ErrorPage/>,
     children:[
       {
         index:true,
