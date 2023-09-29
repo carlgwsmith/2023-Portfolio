@@ -23,7 +23,7 @@ export default function Contact(){
                         <input className={inputStyle + ' h-14 w-full'} id="emailaddress" type="email" name="email" required placeholder="test@test.com"/>
                     </div>
                 </div>
-                <label for="message" className={labelStyle}>Full Name <span className="text-rose-800">*</span></label>
+                <label for="message" className={labelStyle}>Message<span className="text-rose-800">*</span></label>
                 <textarea className={inputStyle + ' w-full h-40'} name="message" id="message" required placeholder="type your message here..."></textarea>
                 <input type="hidden" name="redirect" value="https://web3forms.com/success"/>
                 <button type="submit" className={submitStyle}>Submit Form</button>
