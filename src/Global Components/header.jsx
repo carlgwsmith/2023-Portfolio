@@ -16,7 +16,6 @@ const location = useLocation()
 useEffect(() => {
     setNavbarOpen(false);
     setLogoEffect('tracking-in-expand w-full text-[24px] font-bold tracking-tighter text-jet')
-    console.log(location)
 }, [location]);
 
 

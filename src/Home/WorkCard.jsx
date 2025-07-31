@@ -8,13 +8,13 @@ export default function WorkCard(props){
     useEffect(() => {
         setTimeout(() => {
             setLoading(false)
-        }, 1000);
+        }, 2000);
     }, []);
     return(
         <div className="w-[300px] bg-[#f4f4f4] rounded-lg border-solid border-jet-light border-2">
             <div className="grid">
                 { loading ? 
-                <div className="bg-white">
+                <div className="grid grid-cols-4">
                 <Skeleton height={218}/>
                 <Skeleton count={4}/>
                 </div>

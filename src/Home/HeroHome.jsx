@@ -16,37 +16,6 @@ function HeroHome(props) {
     const windowSize = useRef([window.innerWidth, window.innerHeight]);
 
     const canvasExperience = useRef()
-    console.log(canvasExperience)
-
-    // useEffect(() => {
-    //     console.log(windowSize.current[0])
-    //     if(windowSize.current[0] <= 400){
-    //         setExpWidth('300px')
-    //         setExpHeight('200px')
-    //     }
-    //     else if(windowSize.current[0] <= 500){
-    //         console.log('smaller')
-    //         setExpWidth('400px')
-    //         setExpHeight('400px')
-    //     }
-    //     else if(windowSize.current[0] < 800){
-    //         setExpWidth('500px')
-    //         setExpHeight('300px')
-    //         console.log(canvasExperience)
-    //         setFov(40)
-    //         setZoom(.5)
-    //         setPosition([4, .5, 4])
-    //     }
-    //     else if(windowSize.current[0] < 1400){
-    //         setExpWidth('600px')
-    //         setExpHeight('400px')
-    //         console.log('small')
-    //     }
-    //      else{
-    //         setExpWidth('800px')
-    //         setExpHeight('600px')
-    //     }
-    // }, [windowSize]);
     return(
         <div className="bg-background-light h-[500px]">
         <div className="modelScene">
