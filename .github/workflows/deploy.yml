@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - gh-pages
+      - main
 
 jobs:
   build:
@@ -33,7 +33,7 @@ jobs:
       pages: write
       id-token: write
     environment:
-      name: gh-pages
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
