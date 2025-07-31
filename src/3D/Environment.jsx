@@ -1,42 +1,40 @@
-import { useThree } from "@react-three/fiber"
-import { OrbitControls, PresentationControls, Float } from "@react-three/drei"
-import Model from "./model"
-import { Suspense, useRef } from 'react'
-import Placeholder from "./placeholder"
+import { useThree } from "@react-three/fiber";
+import { PresentationControls, Float } from "@react-three/drei";
+import Model from "./model";
+import { Suspense } from "react";
+import Placeholder from "./placeholder";
 
+export default function Experience() {
+    const { camera, gl } = useThree();
 
-export default function Experience(){
-    const ref = useRef()
-    const{camera, gl} = useThree()
-
-    // extend({OrbitControls: OrbitControls})
-
-    return(
+    return (
         <>
-        
-         {/* <orbitControls args={[camera, gl.domElement]}/>  */}
+            <directionalLight position={[1, 2, 1]} intensity={1.5} />
+            <ambientLight intensity={0.75} />
 
-        <directionalLight position={[1, 2, 1]}  intensity={1.5}/>
-        <ambientLight intensity={0.75}/>
-    
-    <Suspense
-    fallback={
-    <Placeholder position-x={.8} scale={[.75,.75,.75]}/>
-    }
-    >
-    <PresentationControls 
-        global
-        rotation={[0,3.5,0]}
-        polar={[-0.01, 0.01]}
-        azimuth={[0,0.2]}
-        config={{mass:1, tension: 400}}
-        snap={{mass: 1, tension: 200}}
-        >
-        <Float rotationIntensity={.4} floatingRange={.8} floatIntensity={0.1}>
-    <Model />
-    </Float>
-    </PresentationControls>
-    </Suspense>
+            <Suspense
+                fallback={
+                    <Placeholder position-x={0.8} scale={[0.75, 0.75, 0.75]} />
+                }
+            >
+                <PresentationControls
+                    global
+                    anchor={[0.3, 0.4, 0]} // Move anchor slightly right on X axis
+                    rotation={[0, 3.5, 0]}
+                    polar={[-Math.PI / 14, Math.PI / 14]} // Allow up/down drag (±30°)
+                    azimuth={[-Math.PI / 2, Math.PI / 2]} // Allow 180° left/right drag
+                    config={{ mass: 1, tension: 1000 }} // Higher tension, snappier
+                    snap={{ mass: 2, tension: 300 }} // Smoother snap-back
+                >
+                    <Float
+                        rotationIntensity={0.4}
+                        floatingRange={0.8}
+                        floatIntensity={0.1}
+                    >
+                        <Model />
+                    </Float>
+                </PresentationControls>
+            </Suspense>
         </>
-    )
+    );
 }
