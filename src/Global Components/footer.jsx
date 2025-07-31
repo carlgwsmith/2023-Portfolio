@@ -24,7 +24,7 @@ export default function Footer(){
                 </div>
             </div>
             <div className='text-center bg-[#fff] w-full p-4 border-y-[2px] border-solid border-jet text-sm font-semibold text-jet'>
-                &copy; 2023 <RxDotFilled size={14} className="inline-block"/> Built and Designed by Carl G.W. Smith 
+                &copy; 2025 <RxDotFilled size={14} className="inline-block"/> Built and Designed by Carl G.W. Smith 
             </div>
         </div>
     )
