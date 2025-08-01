@@ -6,8 +6,9 @@ export default function Home(){
 
     return(
         <>
-        <HeroHome title="Carl G.W. Smith" desc="I’m Carl, a senior product designer and creative developer.
+        <HeroHome title="Carl G.W. Smith" desc="I’m Carl, a senior software engineer with a flair for creativity.
 I design and implement thoughtful and easy to use experiences for companies with complex problems."/>
+
         <Scrolling/>
         <FeaturedWork cardMargin="mt-16 iphone:mt-0 xs:mt-0" title="Featured Work"/>
         </>

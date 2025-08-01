@@ -71,9 +71,12 @@ export default function Resume(){
             <div className="xs: col-span-12 mdlg:col-span-6 sm: px-20 sm: py-20 sm: gap-20">
                 <h2 className="font-bold uppercase text-2xl">Hard Skills</h2>
                 <ul className="list-none">
+                
                     <li>HTML</li>
                     <li>CSS (SCSS, SASS, Styled Components, Quasar, Tailwind)</li>
-                    <li>JS (ES6, JSX, VueJS, React, Native, Angular)</li>
+                    <li>JS (ES6, JSX, VueJS, React, Native, Angular, ThreeJS)</li>
+                    <li>Java (Spring boot, Thymeleaf)</li>
+                    <li>SQL</li>
                     <li>Adobe Creative Suite</li>
                     <li>Figma</li>
                     <li>CMS (Hubspot CMS, Wordpress, Unqork)</li>
@@ -82,10 +85,13 @@ export default function Resume(){
             <div className="xs: col-span-12 sm:col-span-6 sm: px-20 sm: py-20 sm: gap-20">
                 <h2 className="font-bold uppercase text-2xl">Soft Skills</h2>
                 <ul className="list-none">
+                    <li>Problem Solver</li>
+                    <li>Life long learner</li>
+                    <li>Critical Thinker</li>
+                    <li>Leadership and team focused</li>
                     <li>User & Accessibilty Focused</li>
                     <li>Diligent and Timely</li>
                     <li>Responsive to Criticism</li>
-                    <li>Team Forward</li>
                     <li>Holistically Empathetic</li>
                     <li>Open & Adaptive</li>
                 </ul>
