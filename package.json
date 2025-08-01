@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
-    "@react-three/drei": "^9.74.14",
-    "@react-three/fiber": "8.9",
-    "@react-three/postprocessing": "2.14",
+    "@react-three/drei": "^9.89.7",
+    "@react-three/fiber": "^8.15.13",
+    "@react-three/postprocessing": "^3.0.4",
     "@uidotdev/usehooks": "^2.1.0",
     "autoprefixer": "^10.4.14",
     "flowbite": "^1.6.5",
@@ -23,8 +23,8 @@
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "postcss": "^8.4.21",
-    "postprocessing": "6.31",
-    "r3f-perf": "^7.1.2",
+    "postprocessing": "^6.35.0",
+    "r3f-perf": "^7.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.5.2",
@@ -32,7 +32,7 @@
     "react-loading-skeleton": "^3.3.1",
     "react-router-dom": "^6.11.0",
     "sort-by": "^0.0.2",
-    "three": "^0.148.0",
+    "three": "^0.154.0",
     "vite-plugin-glsl": "^1.1.2"
   },
   "devDependencies": {
