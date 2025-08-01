@@ -12,14 +12,11 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.14",
-    "@react-three/drei": "^9.122.0",
+    "@react-three/drei": "^10.6.1",
     "@react-three/fiber": "^9.3.0",
     "@react-three/postprocessing": "^3.0.4",
     "@uidotdev/usehooks": "^2.1.0",
     "autoprefixer": "^10.4.14",
-    "flowbite": "^1.6.5",
-    "flowbite-react": "^0.4.3",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "postcss": "^8.4.21",
