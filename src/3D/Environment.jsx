@@ -10,7 +10,7 @@ export default function Experience() {
     return (
         <>
             <directionalLight position={[1, 2, 1]} intensity={1.5} />
-            <ambientLight intensity={0.75} />
+            <ambientLight intensity={2} />
 
             <Suspense
                 fallback={

@@ -1,11 +1,10 @@
 import { useFrame, extend } from "@react-three/fiber";
 import { Center, useGLTF, shaderMaterial } from '@react-three/drei';
-import { useState, useRef, useMemo } from 'react';
+import { useState, useRef } from 'react';
 import { useWindowSize } from "@uidotdev/usehooks";
 import portalVertexShader from '../shaders/vertex.glsl';
 import portalFragmentShader from '../shaders/fragment.glsl';
 import * as THREE from 'three';
-import { Bloom, EffectComposer } from "@react-three/postprocessing";
 
 const PortalMaterial = shaderMaterial(
   {
