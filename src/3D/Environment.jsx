@@ -18,13 +18,13 @@ export default function Experience() {
                 }
             >
                 <PresentationControls
-                    global
+                    global={true}
                     anchor={[0.3, 0.4, 0]} // Move anchor slightly right on X axis
                     rotation={[0, 3.5, 0]}
                     polar={[-Math.PI / 14, Math.PI / 14]} // Allow up/down drag (±30°)
                     azimuth={[-Math.PI / 2, Math.PI / 2]} // Allow 180° left/right drag
                     config={{ mass: 1, tension: 1000 }} // Higher tension, snappier
-                    snap={{ mass: 2, tension: 300 }} // Smoother snap-back
+                    snap={true} // Smoother snap-back
                 >
                     <Float
                         rotationIntensity={0.4}
